@@ -16,7 +16,7 @@
 #define TIMER_INTERVAL (5 * 60 * HZ) // 5 minutes
 
 static struct timer_list mem_timer;
-static unsigned int interval = TIMER_INTERVAL; // Default interval
+static unsigned int interval = TIMER_INTERVAL / HZ; // Default interval in seconds
 
 module_param(interval, uint, 0644);
 MODULE_PARM_DESC(interval, "Timer interval in seconds for memory info logging");
