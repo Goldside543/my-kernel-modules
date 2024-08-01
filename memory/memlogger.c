@@ -57,5 +57,5 @@ module_init(mem_info_init);
 module_exit(mem_info_exit);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Goldside543");
+MODULE_AUTHOR("Goldside543 <goldside000@outlook.com>");
 MODULE_DESCRIPTION("A module that outputs memory information periodically.");
